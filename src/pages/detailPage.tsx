@@ -31,12 +31,13 @@ const CRYPTO_DETAILS: Record<string, CryptoDetail> = {
     algorithm: "Proof of History & PoS",
     description: "Blockchain de alto rendimiento diseñada para ofrecer velocidades de transacción ultrarrápidas y tarifas extremadamente bajas, orientada a desarrollos masivos.",
   },
-  usdt: {
-    name: "Tether (USDT)",
-    symbol: "USDT",
-    network: "Multi-chain (Omni, ERC-20, TRC-20)",
-    description: "Criptomoneda estable (stablecoin) cuyo valor está diseñado para mantenerse vinculado 1:1 con el dólar estadounidense, ofreciendo liquidez y refugio frente a la volatilidad.",
-  },
+usdt: {
+  name: "Tether (USDT)",
+  symbol: "USDT",
+  network: "Multi-chain (Omni, ERC-20, TRC-20)",
+  algorithm: "N/A",
+  description: "Criptomoneda estable (stablecoin) cuyo valor está diseñado para mantenerse vinculado 1:1 con el dólar estadounidense, ofreciendo liquidez y refugio frente a la volatilidad.",
+},
 };
 
 export function DetailPage() {
